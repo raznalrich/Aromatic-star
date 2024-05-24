@@ -128,6 +128,7 @@ p {
   line-height: 30px;
   font-weight: 300;
   color: #afafaf;
+  
 }
 
 img {
@@ -170,6 +171,7 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+  
 }
 
 .page-section {
@@ -657,6 +659,7 @@ header
 }
 
 @media (max-width: 767px) {
+ 
   .pre-header{
     display: none;
   }
@@ -893,7 +896,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
+  /* background-image: url(../images/slider-left-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -905,7 +908,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/slider-right-dec.jpg);
+  /* background-image: url(../images/slider-right-dec.jpg); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -940,6 +943,7 @@ Banner Style
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
+  color: #ffffff;
 }
 
 .main-banner .right-image {
@@ -951,7 +955,13 @@ Banner Style
 .main-banner .right-image img {
   max-width: 593px;
 }
+.full-background {
+  position: relative;
+  background: url('/assets/images/Asset@300x.webp') no-repeat center center;
+  background-size: cover;
+  
 
+}
 
 
 /* 
@@ -971,6 +981,7 @@ About Style
 .about-right-content p {
   margin-top: 30px;
   margin-bottom: 45px;
+  color: #afafaf;
 }
 
 .skills-content {
