@@ -1609,6 +1609,7 @@ Blog
 --------------------------------------------- 
 */
 
+
 .blog:before {
   content: '';
   background-image: url(../images/blog-left-dec.jpg);
