@@ -957,7 +957,7 @@ Banner Style
 }
 .full-background {
   position: relative;
-  background: url('/assets/images/Asset@300x.webp') no-repeat center center;
+  background: url('../images/Asset@300x.webp') no-repeat center center;
   background-size: cover;
   
 
